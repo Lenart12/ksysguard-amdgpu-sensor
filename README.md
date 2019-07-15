@@ -5,23 +5,24 @@ Sensor module for KSysGuard for AMD graphics cards
 This sensor module parses data from [radeontop](https://github.com/clbr/radeontop) and sends it to KSysGuard over its protocol.
 
 With it you can monitor the following values:
-| Short   | Display name    |
-| ------- | --------------- |
-| gpu     |   Graphics pipe |
-| ee      |   Event engine |
-| vgt     |   Vertex Grouper + Tesselator |
-| ta      |   Texture Addresser |
-| sx      |   Shader Export |
-| sh      |   Sequencer Instruction Cache |
-| spi     |   Shader Interpolator |
-| sc      |   Scan Converter |
-| pa      |   Primitive Assembly |
-| db      |   Depth Block |
-| cb      |   Color Block |
-| vram    |   Video ram |
-| gtt     |   Graphics translation table |
-| mclk    |   Memory clock |
-| sclk    |   Shader clock |
+
+| Short 	| Display name                	|
+|:-----:	|-----------------------------	|
+|  gpu  	| Graphics pipe               	|
+|   ee  	| Event engine                	|
+|  vgt  	| Vertex Grouper + Tesselator 	|
+|   ta  	| Texture Addresser           	|
+|   sx  	| Shader Export               	|
+|   sh  	| Sequencer Instruction Cache 	|
+|  spi  	| Shader Interpolator         	|
+|   sc  	| Scan Converter              	|
+|   pa  	| Primitive Assembly          	|
+|   db  	| Depth Block                 	|
+|   cb  	| Color Block                 	|
+|  vram 	| Video ram                   	|
+|  gtt  	| Graphics translation table  	|
+|  mclk 	| Memory clock                	|
+|  sclk 	| Shader clock                	|
 
 ---
 ### Requirements
